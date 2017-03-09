@@ -9,6 +9,39 @@
 
 /* Reset */
 
+
+
+#animatedgradient {
+    background: linear-gradient(270deg, #a5b984, #9fcabf, #af9fca, #cec6a6, #f5bc8d, #dd7c7c, #e8cd8f, #8a7db0);
+    background-size: 1600% 1600%;
+    
+    -webkit-animation: GradientTransition 30s ease infinite;
+    -moz-animation: GradientTransition 30s ease infinite;
+    -o-animation: GradientTransition 30s ease infinite;
+    animation: GradientTransition 30s ease infinite;
+}
+
+@-webkit-keyframes GradientTransition {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes GradientTransition {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes GradientTransition {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes GradientTransition {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
